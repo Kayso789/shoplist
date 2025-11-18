@@ -1,0 +1,36 @@
+
+body {
+	font-size: 16px;
+	font-family: "futura-100", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+img {
+	border: 5px solid black;
+	max-width: 250px;
+	margin: 5% 5% 5% 5%;
+}
+
+#liststuff {
+	display: inline-block;
+	flex-direction: row;
+	margin: 0;
+}
+
+#liststuff li {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+#liststuff p {
+	max-width: 500px;
+	font-size: 3em;
+	text-align: center;
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+}
